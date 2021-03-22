@@ -1,0 +1,1 @@
+Click here to reset your password: <a href="{{ $link = url('/password/reset', $token).'?user_name='.urlencode($user->user_name) }}"> {{ $link }} </a>
